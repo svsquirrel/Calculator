@@ -1,1 +1,100 @@
 
+  
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body {
+  font-size: 14;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: white;
+  } 
+
+ header {
+     margin-left: 47%;
+ }
+
+ #main {
+    display:grid;
+    grid-template-columns: 1fr 350px 1fr; 
+    grid-template-rows: 115px 60px 340px 1fr;
+   
+}  
+
+#display{
+    background-clip: content-box;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px 2px 0 2px;
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row:  1 / 2;
+    padding: 10px;
+    box-shadow: inset 0px 0px 0px 10px rgb(218, 216, 216);
+    text-align: right;
+}
+.numdisplay{
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: right;
+    align-content: center;
+    
+    }
+
+
+#controls{
+    background-color: rgb(218, 216, 216);
+    border-style: solid;
+    border-width: 2px 2px 0 2px;
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row:  2 / 3;
+    grid-template-columns: 1fr 1fr;
+}
+
+#container {
+    background-color: rgb(218, 216, 216);
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    display: grid;
+    grid-column: 2 /3;
+    grid-row: 3 / 4;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+     
+} 
+.btn {
+    background-color: white;
+    font-size: 24px;
+    font-weight:400;
+    
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px; 
+    border-radius: 4px;
+         
+}
+.btn:hover{
+     background-color: hotpink;
+}
+#enter:hover{
+    background-color: lawngreen;
+    }
+#clear:hover{
+    background-color: lawngreen;
+}
+.btndo{
+    background-color: white;
+    font-size: 24px;
+    font-weight:400;
+    
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px; 
+    border-radius: 4px;
+  
+}
+    
+
+   
+
+ 
